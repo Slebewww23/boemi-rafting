@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Boemi Rafting Pangalengan | Rafting, Outbound & Glamping di Situ Cileunca</title>
+<meta name="description" content="Paket rafting, outbound, team building, ATV, offroad, dan glamping di Situ Cileunca, Pangalengan. Mulai Rp175.000/orang. Pesan via WhatsApp.">
+<meta property="og:title" content="Boemi Rafting Pangalengan">
+<meta property="og:description" content="Satu Boemi, seribu cerita petualangan. Rafting, outbound, dan glamping di Situ Cileunca.">
+<meta property="og:image" content="assets/images/hero-image.jpg">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="brand" href="#"><img src="assets/logo.png" alt="Boemi Rafting"></a>
+  <button class="menu-btn" id="menu-toggle" aria-label="Buka menu" aria-expanded="false" aria-controls="nav">☰</button>
+  <nav class="nav" id="nav">
+    <a href="#paket">Paket</a><a href="#aktivitas">Aktivitas</a><a href="#glamping">Glamping</a><a href="#kenapa">Kenapa Boemi</a><a href="#pemesanan">Pemesanan</a><a href="#lokasi">Lokasi</a>
+    <a class="btn btn-sm" href="#" data-wa="Halo Boemi Rafting, saya mau tanya paket.">WhatsApp</a>
+  </nav>
+</div></header>
+
+<main>
+<div class="hero">
+  <div class="wrap hero-copy">
+    <h1>Satu Boemi, seribu cerita petualangan</h1>
+    <p class="lead">Rafting, outbound, ATV, offroad, dan glamping di tepi Situ Cileunca, Pangalengan. Untuk rombongan 10 sampai 50+ orang.</p>
+    <div class="cta"><a class="btn" href="#paket">Lihat paket</a><a class="btn btn-ghost" href="#" data-wa="Halo Boemi Rafting, saya mau tanya paket.">Chat WhatsApp</a></div>
+  </div>
+  <div class="wrap" id="paket">
+    <div class="sec-title"><h2>Paket favorit</h2></div>
+    <div class="track" id="paket-track"></div>
+  </div>
+</div>
+
+<section class="dark topo" id="kenapa">
+  <div class="wrap">
+    <h2 class="h">Petualangan ada di akar kami</h2>
+    <p class="sub">Boemi dari kata “Bumi” dalam ejaan lama. Semua petualangan kami berawal dari sungai, hutan pinus, kebun teh, dan danau.</p>
+    <ul class="why" id="kenapa-list"></ul>
+  </div>
+</section>
+
+<section id="aktivitas">
+  <div class="wrap">
+    <h2 class="h">Harga per aktivitas</h2>
+    <p class="sub">Pilih satuan atau gabungkan sendiri. Harga paket menyesuaikan jumlah peserta, hari, dan menu, jadi tanyakan penawaran resmi.</p>
+    <div class="acts" id="aktivitas-grid"></div>
+  </div>
+</section>
+
+<section class="dark" id="glamping">
+  <div class="wrap glamp">
+    <div>
+      <h2 class="h">Glamping river side</h2>
+      <p class="sub">Rasakan udara pegunungan yang sejuk dan panorama pinggir danau dari matahari terbit hingga matahari terbenam.</p>
+      <ul class="fas"><li>Kasur, selimut, dan bantal</li><li>Listrik dan penerangan indoor & outdoor</li><li>Gazebo untuk acara malam</li><li>Dispenser dan air mineral</li><li>Api unggun</li><li>Kamar mandi dengan water heater</li></ul>
+      <p class="price" style="color:#fff;margin-bottom:18px"><small style="color:#c3cde0">Mulai</small> Rp 850.000 <small style="color:#c3cde0">/tenda (min. 4 orang)</small></p>
+      <a class="btn" href="#" data-wa="Halo Boemi Rafting, saya mau tanya glamping.">Pesan glamping</a>
+    </div>
+    <div class="glamp-photos">
+      <img src="assets/images/lake-tents.jpg" alt="Tenda di tepi Situ Cileunca" loading="lazy">
+      <img src="assets/images/glamping-cabin.jpg" alt="Cabin glamping" loading="lazy">
+      <img src="assets/images/glamping-fire.jpg" alt="Api unggun malam hari" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<section class="booking" id="pemesanan">
+  <div class="wrap booking-grid">
+    <div>
+      <h2 class="h">Pemesanan</h2>
+      <p class="sub">Isi formulir, lalu pesanmu terkirim ke WhatsApp kami. Konsultasi dan survei lokasi gratis.</p>
+      <ol class="steps">
+        <li>Isi formulir di samping.</li>
+        <li>WhatsApp terbuka dengan pesan yang sudah terisi, tinggal kirim.</li>
+        <li>Kami balas dengan penawaran resmi dan itinerary lengkap.</li>
+      </ol>
+      <p class="note">Rombongan di atas 50 orang: reservasi minimal H-7.</p>
+    </div>
+    <form class="form" id="form-pesan">
+      <label>Nama<input name="nama" required autocomplete="name"></label>
+      <label>Paket / aktivitas<select name="paket" id="f-paket" required></select></label>
+      <div class="row">
+        <label>Jumlah peserta<input name="peserta" type="number" min="1" required inputmode="numeric"></label>
+        <label>Tanggal kegiatan<input name="tanggal" type="date" required></label>
+      </div>
+      <label>Catatan (opsional)<textarea name="catatan" rows="3" placeholder="Contoh: acara kantor, butuh kambing guling, jemput dari Bandung"></textarea></label>
+      <button class="btn" type="submit">Kirim ke WhatsApp</button>
+    </form>
+  </div>
+</section>
+
+<section id="lokasi">
+  <div class="wrap info">
+    <div>
+      <h2 class="h">Lokasi & jam buka</h2>
+      <p class="sub">Sekitar 50 km dari Kota Bandung (2-2,5 jam) lewat Banjaran - Pangalengan. Jalan beraspal dan bisa dilewati bus besar. Penjemputan dari Bandung tersedia atas permintaan.</p>
+      <dl><dt>Alamat</dt><dd>Situ Cileunca, Pangalengan, Kab. Bandung</dd><dt>Siang</dt><dd>Setiap hari 08.00-17.00 WIB</dd><dt>Malam</dt><dd>Sampai 22.00 WIB (acara malam / glamping)</dd><dt>Reservasi</dt><dd>Minimal H-7 untuk rombongan di atas 50 orang</dd><dt>WhatsApp</dt><dd><a href="#" data-wa="Halo Boemi Rafting, saya mau reservasi."><span data-telp></span></a></dd><dt>Email</dt><dd><a href="#" data-email></a></dd></dl>
+    </div>
+    <div>
+      <p class="quote">“Raftingnya seru, pemandunya ramah dan lucu. Team buildingnya benar-benar bikin tim kami makin kompak. Kambing gulingnya juara!” <br>Peserta gathering perusahaan, Jakarta</p>
+      <p class="quote">“Glamping di tepi danau, malamnya ada live music dan api unggun. Anak-anak senang, orang tua tenang.” <br>Keluarga dari Bandung</p>
+      <img src="assets/images/bottom.jpg" alt="foto bersama" loading="lazy" style="border-radius:16px;margin-top:20px;width:100%;aspect-ratio:16/9;object-fit:cover">
+    </div>
+  </div>
+</section>
+<section class="dark klien" id="klien">
+  <div class="wrap">
+    <h2 class="h">- Klien kami -</h2>
+    <ul class="klien-grid" id="klien-grid"></ul>
+  </div>
+</section>
+</main>
+
+<footer><div class="wrap">© 2026 Boemi Rafting Pangalengan · Situ Cileunca, Kabupaten Bandung, Jawa Barat</div></footer>
+<a class="btn wa-float" href="#" data-wa="Halo Boemi Rafting, saya mau tanya paket.">Chat WhatsApp</a>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
