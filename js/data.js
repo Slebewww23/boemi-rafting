@@ -7,9 +7,9 @@ const BOEMI = {
 
   /* Google Maps. Kalau punya link share dari Google Maps (maps.app.goo.gl/...), ganti nilai "link" */
   maps: {
-    link: "https://www.google.com/maps/search/?api=1&query=Boemi+Rafting+Pangalengan",
-    embed: "https://maps.google.com/maps?q=Boemi%20Rafting%20Pangalengan&output=embed"
-  },
+  link: "https://www.google.com/maps/search/?api=1&query=Boemi+Rafting+Pangalengan",
+  embed: "https://maps.google.com/maps?q=Boemi%20Rafting%20Pangalengan&output=embed"
+},
 
   paket: [
     { id: "rafting-only", nama: "Paket Rafting Only", kategori: "Arung Jeram", harga: 175000, min: 5,

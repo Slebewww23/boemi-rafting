@@ -26,8 +26,8 @@
 
   /* Font: ganti di sini, otomatis berlaku di semua tempat */
   --font-head: "Barlow Condensed", "Arial Narrow", sans-serif;
-  --font-body: "Source Serif 4", Georgia, serif;
-  --font-ui: "Plus Jakarta Sans", system-ui, sans-serif;   /* teks kecil: label, harga satuan, form, footer */
+  --font-body: "Plus Jakarta Sans", system-ui, sans-serif;   /* semua teks biasa */
+  --font-ui: var(--font-body);                                /* teks kecil: ikut font di atas */
 
   /* Lainnya */
   --radius: 16px;
@@ -738,7 +738,7 @@ footer {
 
 
 /* ---------- 12b. TEKS KECIL (font UI) ----------
-   Semua teks kecil memakai --font-ui. Mau ganti font? Ubah variabel di atas. */
+   Teks kecil memakai --font-ui (sama dengan --font-body). */
 .meta,
 .chips li,
 details,
