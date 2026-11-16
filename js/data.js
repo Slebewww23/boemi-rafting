@@ -5,6 +5,12 @@ const BOEMI = {
   email: "Kupaskentang664@gmail.com",
   lokasi: "Situ Cileunca, Pangalengan, Kabupaten Bandung, Jawa Barat",
 
+  /* Google Maps. Kalau punya link share dari Google Maps (maps.app.goo.gl/...), ganti nilai "link" */
+  maps: {
+    link: "https://www.google.com/maps/search/?api=1&query=Boemi+Rafting+Pangalengan",
+    embed: "https://maps.google.com/maps?q=Boemi%20Rafting%20Pangalengan&output=embed"
+  },
+
   paket: [
     { id: "rafting-only", nama: "Paket Rafting Only", kategori: "Arung Jeram", harga: 175000, min: 5,
       gambar: "rafting-group.jpg", badge: "Paling simpel",
@@ -44,14 +50,15 @@ const BOEMI = {
     { nama: "Offroad Landy", harga: 1750000, unit: "", min: "", gambar: "offroad-landy.jpg", desc: "Land Rover Series klasik, konvoi sampai 10 mobil." },
     { nama: "Live Music", harga: 2700000, unit: "", min: "", gambar: "restaurant.jpg", desc: "Akustik atau band di tepi danau, sound system tersedia." },
   ],
-  
+
+  /* Logo klien: taruh file di assets/images/klien/ lalu tambah baris di sini */
   klien: [
     { nama: "KAI", logo: "kai.webp" },
     { nama: "Danantara Indonesia", logo: "danantara.webp" },
     { nama: "MedisKA", logo: "mediska.webp" },
     { nama: "Citar", logo: "citar.webp" }
   ],
-  
+
   kenapa: [
     ["Lokasi terbaik", "Tepat di tepi Situ Cileunca, udara sejuk 16-22°C."],
     ["Semua dalam satu tempat", "Rafting, paintball, ATV, offroad, glamping, sampai kambing guling dalam satu paket."],

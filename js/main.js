@@ -33,6 +33,10 @@ document.getElementById("kenapa-list").innerHTML = BOEMI.kenapa.map(([t, d]) => 
 document.getElementById("klien-grid").innerHTML = BOEMI.klien.map(k => `
   <li><img src="assets/images/klien/${k.logo}" alt="${k.nama}" loading="lazy"></li>`).join("");
 
+// Google Maps
+document.querySelectorAll("[data-maps]").forEach(a => { a.href = BOEMI.maps.link; a.target = "_blank"; a.rel = "noopener"; });
+document.getElementById("peta").src = BOEMI.maps.embed;
+
 // Link WhatsApp & kontak
 document.querySelectorAll("[data-wa]").forEach(a => { a.href = wa(a.dataset.wa || "Halo Boemi Rafting, saya mau tanya paket."); a.target = "_blank"; a.rel = "noopener"; });
 document.querySelectorAll("[data-telp]").forEach(e => e.textContent = BOEMI.telp);
@@ -68,5 +72,3 @@ document.getElementById("form-pesan").addEventListener("submit", e => {
   ].join("\n");
   window.open(wa(pesan), "_blank", "noopener");
 });
-
-
