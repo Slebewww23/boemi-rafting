@@ -1,7 +1,4 @@
 # Boemi Rafting Pangalengan - Website
-
-Website statis (HTML + CSS + JS), tanpa build step.
-
 ## Struktur
 ```
 boemi-rafting/
@@ -22,8 +19,3 @@ boemi-rafting/
 
 ## Jalankan lokal
 `python3 -m http.server 8000` lalu buka http://localhost:8000
-
-## Deploy
-**Vercel (drag & drop / CLI):** `npm i -g vercel` lalu `vercel` di folder ini.
-**Via GitHub:** push folder ini ke repo, import di vercel.com, Framework Preset: "Other", tanpa build command, output directory kosong.
-Alternatif gratis: Netlify (drag folder), Cloudflare Pages, GitHub Pages.
